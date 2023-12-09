@@ -1,5 +1,7 @@
 # Spotify ETL Project
 
+[https://images.prismic.io/soundcharts/727545d02420e55c5c6a376f633a1f02ebc59dc5_mapspot2.png?auto=compress,format]
+
 ## Overview
 
 This project focuses on creating an ETL (Extract, Transform, Load) pipeline for Spotify data. The goal is to consolidate, transform, and store Spotify track information in a data warehouse, enabling efficient data analysis and reporting.
@@ -18,13 +20,12 @@ The music industry, particularly in the streaming era, generates vast amounts of
 
 ## Data
 
-The Spotify track data is obtained from [source/location]. It includes information on tracks, artists, albums, and various audio features.
+The Spotify track data is obtained from [https://research.atspotify.com/2020/09/the-million-playlist-dataset-remastered/]. It includes information on tracks, artists, albums, and various audio features.
 
 ## Methods
 
 ### Data Extraction
 
-- The original data is sourced from [source].
 - Python scripts, utilizing Boto3, are used to upload the data to Amazon S3 for storage.
 
 ### Data Transformation
@@ -35,12 +36,14 @@ The Spotify track data is obtained from [source/location]. It includes informati
 
 ### Data Loading
 
-- The transformed data is loaded into Amazon Redshift, a serverless data warehouse.
+- Using a python script the transformed data is loaded into Amazon Redshift, a serverless data warehouse.
 
 ### Visualization
 
 - Visualizations are created using Tableau to provide insights into Spotify track data.
-- Examples include charts depicting popularity trends, duration distribution, and more.
+- Examples include charts depicting popularity trends, ennergy distribution, and more.
+
+
 
 ## Tools Used
 
