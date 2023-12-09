@@ -1,10 +1,11 @@
 # Spotify ETL Project
 
-[https://images.prismic.io/soundcharts/727545d02420e55c5c6a376f633a1f02ebc59dc5_mapspot2.png?auto=compress,format]
+[[https://images.prismic.io/soundcharts/727545d02420e55c5c6a376f633a1f02ebc59dc5_mapspot2.png?auto=compress,format]](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoundcharts.com%2Fspotify-analytics&psig=AOvVaw2YWo0Ze9G81NWCrtXb8vf7&ust=1702251853284000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLD67bzEg4MDFQAAAAAdAAAAABAD)
 
 ## Overview
 
-This project focuses on creating an ETL (Extract, Transform, Load) pipeline for Spotify data. The goal is to consolidate, transform, and store Spotify track information in a data warehouse, enabling efficient data analysis and reporting.
+This project focuses on creating an ETL (Extract, Transform, Load) pipeline for Spotify data. The goal is to consolidate, transform, and store Spotify track information in a data warehouse, enabling efficient ![Uploading image.png…]()
+data analysis and reporting.
 
 ## Team Members
 
