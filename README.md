@@ -13,6 +13,7 @@ This project focuses on creating an ETL (Extract, Transform, Load) pipeline for 
 ## Project Description
 
 The project involves extracting Spotify track data, transforming it to a suitable format, and loading it into a data warehouse. This allows for in-depth analysis of track information, such as popularity, duration, and various audio features.
+(In depth description of each feature can be found in the data dictionary [https://github.com/s-guliani/SpotifyProject/blob/main/DATA%20DICTIONARY%204400%20SOLO.xlsx]
 
 ## Business Problem
 
