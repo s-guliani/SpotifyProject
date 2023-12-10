@@ -1,0 +1,48 @@
+CREATE SCHEMA "instance";
+
+CREATE TABLE "instance"."tracks_(fact_table)" ( 
+	track_id             varchar(255)  NOT NULL  ,
+	artist_id            varchar(255)  NOT NULL  ,
+	album_id             varchar(255)  NOT NULL  ,
+	genre_id             varchar(255)  NOT NULL  ,
+	popularity           integer    ,
+	duration_ms          integer    ,
+	explicit             boolean    ,
+	"key"                integer    ,
+	danceability         double precision    ,
+	energy               double precision    ,
+	loudness             double precision    ,
+	"mode"               integer    ,
+	speechiness          double precision    ,
+	acousticness         double precision    ,
+	instrumentalness     double precision    ,
+	liveness             double precision    ,
+	valence              double precision    ,
+	tempo                double precision    ,
+	time_signature       double precision    ,
+	CONSTRAINT "pk_tracks_(fact_table)" PRIMARY KEY ( track_id )
+ );
+
+CREATE TABLE "instance".albums ( 
+	album_id             varchar(255)  NOT NULL  ,
+	album_name           varchar(255)    ,
+	CONSTRAINT pk_albums PRIMARY KEY ( album_id )
+ );
+
+CREATE TABLE "instance".artists ( 
+	artist_id            varchar(255)  NOT NULL  ,
+	artist_name          varchar(255)    ,
+	CONSTRAINT pk_artists PRIMARY KEY ( artist_id )
+ );
+
+CREATE TABLE "instance".genres ( 
+	genre_id             varchar(255)  NOT NULL  ,
+	genre_name           varchar(255)    ,
+	CONSTRAINT pk_genres PRIMARY KEY ( genre_id )
+ );
+
+ALTER TABLE "instance".albums ADD CONSTRAINT "fk_albums_tracks_(fact_table)" FOREIGN KEY ( album_id ) REFERENCES "instance"."tracks_(fact_table)"( album_id );
+
+ALTER TABLE "instance".artists ADD CONSTRAINT "fk_artists_tracks_(fact_table)" FOREIGN KEY ( artist_id ) REFERENCES "instance"."tracks_(fact_table)"( artist_id );
+
+ALTER TABLE "instance".genres ADD CONSTRAINT "fk_genres_tracks_(fact_table)" FOREIGN KEY ( genre_id ) REFERENCES "instance"."tracks_(fact_table)"( genre_id );
