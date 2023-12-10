@@ -74,5 +74,5 @@ Album Popularity
 Song Genre vs Danceability of a song
 <img width="1274" alt="Screenshot 2023-12-09 at 6 32 44 PM" src="https://github.com/s-guliani/SpotifyProject/assets/145724433/adc080a2-34a4-460f-9c88-01ade069f141">
 
-Song Popularity 
+Top Artists based off Spotify's Popularity Algorithm
 <img width="1274" alt="Screenshot 2023-12-09 at 6 32 52 PM" src="https://github.com/s-guliani/SpotifyProject/assets/145724433/e7ef1c5e-dd17-4843-9f81-28aa956cf956">
