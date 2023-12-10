@@ -23,6 +23,8 @@ The music industry, particularly in the streaming era, generates vast amounts of
 
 The Spotify track data is obtained from [https://research.atspotify.com/2020/09/the-million-playlist-dataset-remastered/]. It includes information on tracks, artists, albums, and various audio features.
 
+This is a dataset of Spotify tracks over a range of 125 different genres. Each track has some audio features associated with it. The data is in CSV format which is tabular and can be loaded quickly.
+
 ## Methods
 - Dimensional Modeling: creating a fact & dimension tables to model our data and to help us better understand the relationships between them.
 
